@@ -7,7 +7,7 @@ sudo apt-get update -y
 sudo amixer cset numid=3 1
 
 # Set Voulme To 100%
-amixer cset numid=1 -- 90%
+amixer cset numid=1 -- 100%
 
 # Install Required Libraries
 sudo apt-get install autoconf automake avahi-daemon build-essential git libasound2-dev libavahi-client-dev \
